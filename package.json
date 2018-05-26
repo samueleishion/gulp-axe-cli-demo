@@ -1,0 +1,22 @@
+{
+  "name": "gulp-axe-cli-demo",
+  "version": "1.0.0",
+  "description": "Demo project for gulp-axe-cli.",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "serve": "node index.js"
+  },
+  "author": "samueleishion",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "4.16.3",
+    "gulp": "3.9.1",
+    "gulp-axe-cli": "0.0.1",
+    "gulp-exec": "3.0.1",
+    "gulp-util": "3.0.8",
+    "husky": "0.14.3"
+  },
+  "keywords": [
+  ]
+}
