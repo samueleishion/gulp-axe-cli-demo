@@ -4,8 +4,10 @@
   "description": "Demo project for gulp-axe-cli.",
   "main": "index.js",
   "scripts": {
+    "prepare": "mkdirp axe-results",
     "test": "gulp test",
-    "serve": "node index.js"
+    "serve": "node index.js",
+    "mkdirp": "mkdirp"
   },
   "author": "samueleishion",
   "license": "ISC",
@@ -15,8 +17,8 @@
     "gulp-axe-cli": "0.0.1",
     "gulp-exec": "3.0.1",
     "gulp-util": "3.0.8",
-    "husky": "0.14.3"
+    "husky": "0.14.3",
+    "mkdirp": "0.5.1"
   },
-  "keywords": [
-  ]
+  "keywords": []
 }
